@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}RSI}{2}% 
+\contentsline {section}{\numberline {2}Sedation}{3}% 
+\contentsline {section}{\numberline {3}Vasopressors}{4}% 
+\contentsline {section}{\numberline {4}Anti-Hypertensives}{5}% 
+\contentsline {section}{\numberline {5}TBI}{6}% 
+\contentsline {section}{\numberline {6}Stroke}{7}% 
+\contentsline {section}{\numberline {7}ACS}{8}% 
+\contentsline {section}{\numberline {8}Status Epilepticus}{9}% 
+\contentsline {section}{\numberline {9}EtOH Withdrawal}{10}% 
+\contentsline {section}{\numberline {10}Burns}{11}% 
+\contentsline {section}{\numberline {11}Pulmonary Embolism}{12}% 

@@ -1,0 +1,229 @@
+\documentclass[8pt,twoside]{extarticle}
+\usepackage{extsizes}
+\usepackage[paperheight=6.75in,paperwidth=5in,margin=0.25in,includeheadfoot]{geometry}
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{titling,tabu,helvet,siunitx,graphicx,adjustbox,caption,rotfloat,multicol,enumitem}
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+
+\title{Emergency Medicine Reference}
+\author{Corbin Cox}
+\date{\today}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[LE,RO]{\textbf{\thetitle}} 
+\fancyfoot[LE,RO]{\textbf{\thepage}}
+\renewcommand{\headrulewidth}{0.4pt}  
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength\parindent{0pt}
+\setlength\parskip{0.5em}
+
+\def\arraystretch{1.2}
+
+\newcommand{\finish}{\textbf{\color{red} FINISH}}
+
+
+\begin{document}
+	
+%%% Title
+\thispagestyle{empty}
+\begin{center}
+	\bfseries \huge \thetitle\\
+	\vspace*{1em}
+	\large \theauthor\\
+	\vspace*{1em}
+	\normalsize \thedate
+\end{center}
+
+%%% TOC
+\tableofcontents
+
+\newpage
+
+\section{RSI}
+\begin{table}[h!]
+\rowcolors{2}{white}{gray!12}
+\centering
+\begin{tabular}{l l}
+	\textbf{Drug} & \textbf{Dose} \\ \hline
+	\multicolumn{2}{c}{Paralytics}\\
+	Succinylcholine (IV) & 1.2-1.5 mg/kg \\
+	Succinylcholine (IM) & 3-4 mg/kg (NTE 150mg) \\
+	Rocuronium & 1 mg/kg \\ \hline
+	\multicolumn{2}{c}{Induction}\\
+	Ketamine & 1-2 mg/kg \\ 
+	Propofol & 1-2 mg/kg \\
+	Etomidate & 0.3 mg/kg \\
+	Midazolam (IV/IM) & 0.2-0.3 mg/kg \\ \hline
+	\multicolumn{2}{c}{Pretreatment}\\
+	Lidocaine & 1.5 mg/kg \\
+	Fentanyl & 1 mCg/kg\\
+	Atropine & 0.5 mg\\
+	Glycopyrrolate &  0.2 mg
+\end{tabular}
+\end{table}
+
+\newpage
+
+\section{Sedation}
+\begin{sidewaystable}[H]
+	\rowcolors{2}{white}{gray!12}
+	\centering
+	\caption*{\textbf{Continuous Sedation}}
+	\begin{tabular}{lllll}
+		\textbf{Drug} & \textbf{Bolus} & \textbf{Initial} & \textbf{Max} & \textbf{Titration} \\ \hline
+		Fentanyl & 25mCg Q30m & 25 mCg/hr & 150 mCg/hr & 25 Q30m \\
+		Dilaudid & 0.4mg Q30m & 0.4 mg/hr & 2.4 mg/hr & 0.4 Q30m \\
+		Morphine & 2mg Q30m & 2 mg/hr & 12 mg/hr & 2 Q30m \\ \hline
+		Dexmed & \multicolumn{1}{c}{-} & 0.2 mCg/kg/hr & 1.5 mCg/kg/hr & 0.1 Q15m \\
+		Ketamine & \multicolumn{1}{c}{-} & 0.5 mg/kg/hr & 1.5 mg/kg/hr & 0.2 Q30m \\
+		Lorazepam & 2mg Q15m & 1 mg/hr & 8 mg/hr & 1 Q1H \\
+		Midazolam & 2mg Q15m & 2 mg/hr & 10 mg/hr & 1 Q1H \\
+		Propofol & 10mg Q5m & 10 mCg/kg/min & 50 mCg/kg/min & 10 Q10m
+	\end{tabular}
+\end{sidewaystable}
+
+\newpage
+
+\section{Vasopressors}
+\begin{sidewaystable}[H]
+\rowcolors{2}{white}{gray!12}
+\centering
+\begin{tabular}{l l l l}
+	\textbf{Drug} & \textbf{Start} & \textbf{Max} \\ \hline
+	\textbf{Norepinephrine} & 5 \si{mcg/min} & 30-40 \si{mcg/min} \\
+	\textbf{Epinephrine} & & \\
+	\textbf{Phenylephrine} & & \\
+	\textbf{Dopamine} & & \\ 
+	\textbf{Dobutamine} & & \\
+	\textbf{Milrinone} & & \\
+	\textbf{Vasopressin} & & \\
+	\textbf{Ang-II} & & \\
+\end{tabular}
+\end{sidewaystable}
+
+\newpage
+
+\section{Anti-Hypertensives}
+\begin{table}[h!]
+\rowcolors{2}{white}{gray!12}
+\centering
+\begin{tabular}{l l l l}
+	\textbf{Drug} & \textbf{Dose} & \textbf{Max} \\ \hline
+	Labetolol & & \\
+	Esmolol & & \\
+	Metoprolol & & \\
+	Hydralazine & & \\
+	Nicardipine & & \\
+	Diltiazem & & \\
+	Enalprilat & & \\
+\end{tabular}
+\end{table}
+
+\newpage
+
+\section{TBI}
+
+\subsection*{Goals}
+\begin{itemize}[noitemsep]
+	\item ICP: \finish
+	\item MAP: \finish
+	\item SBP: \finish
+\end{itemize}
+
+\subsection*{Tx}
+\begin{itemize}[noitemsep]
+	\item Sedation / Analgesia
+	\begin{itemize}[noitemsep]
+		\item Propofol
+		\item Fentanyl
+	\end{itemize}
+	\item Osmotic Therapy
+	\begin{itemize}[noitemsep]
+		\item 3\% NaCL 250mL over 15min
+		\item 23.4\% NaCL 30mL \finish
+		\item Mannitol \finish
+	\end{itemize}
+\end{itemize}
+
+\newpage
+
+\section{Stroke}
+\subsection*{tPA Contraindications}
+\subsubsection*{Absolute}
+\begin{multicols}{2}
+\begin{itemize}[noitemsep]
+	\item \textgreater 3hr from last normal
+	\item Use of the following anticoagulants / anti-platelets
+	\begin{itemize}[noitemsep]
+		\item Warfarin if INR \textgreater 1.7
+		\item NOAC w/i 48hrs
+		\item Therapeutic LMWH w/i 24hr
+		\item GIIb/IIIa inhibitors concurrently
+	\end{itemize}
+	\item Coagulopathy defined by
+	\begin{itemize}[noitemsep]
+		\item Plts \textless 100k
+		\item INR \textgreater 1.7
+		\item aPTT \textgreater 40s
+		\item PT \textgreater 15s
+	\end{itemize}
+	\columnbreak
+	\item BG \textless 50
+	\item BP \textgreater 185/110
+	\item Ischemic Stroke w/i 3mo
+	\item Major head trauma w/i 3mo
+	\item Intracranial / intraspinal surgery w/i 3mo (not including lumbar taps)
+	\item Hx of or current head bleed
+	\item Infective Endocarditis
+	\item Aortic dissection
+	\item Intracranial neoplasm
+\end{itemize}
+\end{multicols}
+
+\subsubsection*{Relative}
+\begin{multicols}{2}
+	\raggedright
+\begin{itemize}[noitemsep]
+	\item Arterial puncture of non-compressible vessel w/i 7d
+	\item Major trauma/surgery w/i 14d
+\end{itemize}
+\end{multicols}
+
+\subsubsection*{3-4.5hr Window Inclusion Criteria}
+\begin{multicols}{2}
+\begin{itemize}[noitemsep]
+	\item \textless 80yo
+	\item No Hx of Stroke + DM
+	\item NIHSS $\le$ 25
+	\item No OAC regardless of lab parameters
+	\item No imaging evidence of ischemic injury involving more than 1/3 of MCA territory
+\end{itemize}
+\end{multicols}
+
+
+\newpage
+
+\section{ACS}
+
+\newpage
+
+\section{Status Epilepticus}
+
+\newpage
+
+\section{EtOH Withdrawal}
+
+\newpage
+
+\section{Burns}
+
+\newpage
+
+\section{Pulmonary Embolism}
+
+\end{document}
